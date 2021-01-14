@@ -17,10 +17,7 @@
           ●<span class="highlight">「Studin Space（仮）」はオンライン自習室アプリ</span>です
         </p>
         <p>
-          ●アプリの中には「スペース」と呼ばれる自習室がたくさんあり、そこに入室して着席できます
-        </p>
-        <p>
-          ●スペースの中では<span class="highlight">仲間とタスクや進捗を見せ合いながら作業を行う</span>ことができます
+          ●アプリの中には「スペース」と呼ばれる自習室がたくさんあり、その中で<span class="highlight">仲間とタスクや進捗を見せ合いながら作業を行う</span>ことができます
         </p>
       </div>
     </section>
@@ -28,8 +25,9 @@
       <div class="section_inner">
         <h3 class="first_title">テストについて</h3>
         <p>●テストは<span class="highlight">iPhoneユーザー限定</span>です</p>
-        <p>●<span class="highlight">「自習室スペースに入って着席し、タスクを進める」</span>という流れをテストしていただき、皆さんのご意見をお聞かせください</p>
+        <p>●テストの目的は<span class="highlight">「自習室スペースに入って着席し、タスクを進める」という流れが、「一人だと勉強や作業にやる気が出ない」という問題を解決できそうかを試す</span>ものです</p>
       </div>
+      <p class="arrow">↓テストへ↓</p>
     </section>
     <section class="even">
       <div class="section_inner">
@@ -39,18 +37,41 @@
             <h5 class="list_title">1.TestFlightをインストール</h5>
             <div class="list_body">
               <img src="images/testflight_icon.png" class="icon_image"/>
-              <div class="list_body_left">
-                <p class="text">下記のリンクからAppStoreにて「TestFlight」をインストールしてください</p>
-                <p class="hosoku">※「TestFlight」はApple公式のテスト用のアプリです</p>
-              </div>
+              <p><a href="https://apps.apple.com/jp/app/testflight/id899247664" target="_blank">こちら（AppStore）</a>からApple公式のユーザーテスト用アプリ「TestFlight」をインストールしてください</p>
             </div>
           </li>
           <li>
             <h5 class="list_title">2.招待メールからアプリを開く</h5>
-            <img src="images/email.jpg" class="email_image"/>
-            <div>
-              <p class="text">以前アンケートで伺ったメールアドレス宛に招待メールを送っていますので、メール内のリンクをクリックしてTestFlightを開いてください</p>
-              <p class="hosoku">※「TestFlight」を直接起動しても何も表示されません</p>
+            <div class="list_body">
+              <p>以前アンケートでお聞きしたアドレス宛に、以下のような招待メールを送っています。メール内のリンクをクリックしてTestFlightを開くと、StudinSpaceがスマホにインストールされます</p>
+              <img src="images/email.jpg" class="email_image"/>
+            </div>
+          </li>
+          <li>
+            <h5 class="list_title">3.インストールされたアプリを起動</h5>
+            <div class="list_body">
+              <img src="images/icon.jpg" class="icon_image"/>
+              <p>インストールされた「Studin Space」を起動して、ユーザー登録してください（メール認証はありませんのでどんなアドレスでも結構です）</p>
+            </div>
+          </li>
+          <li>
+            <h5 class="list_title">4.アプリを使ってみる</h5>
+            <p>以下の流れを試してみてください</p>
+            <div class="list_body">
+              <p class="test_step">1.ユーザー登録</p>
+              <p class="test_step">2.スペース画面からスペースに入室</p>
+              <p class="test_step">3.テーブルと椅子を選んで座る</p>
+              <p class="test_step">4.タスクを作成し実行する</p>
+              <p class="test_step">5.完了して保存</p>
+            </div>
+          </li>
+          <li>
+            <h5 class="list_title">5.アンケートに答える</h5>
+            <div class="list_body">
+              <p>テスト終了後、以下のリンクからアンケートにお答えください</p>
+              <div class="form_link_box">
+                <a href="https://forms.gle/aaNLm714CBRREQhi6" target="_blank">アンケートに答える</a>
+              </div>
             </div>
           </li>
         </ul>
@@ -88,7 +109,7 @@
   }
   .section_inner {
     margin: 0 auto;
-    padding: 30px 40px 80px;
+    padding: 50px 40px 110px;
   }
   section p {
     margin-top: 0;
@@ -100,16 +121,19 @@
     margin: 5px;
   }
   h5.list_title {
-    margin: 5px 0 10px;
+    margin: 5px 0 40px;
+    font-size: 20px;
   }
   img.icon_image {
-    width: 70px;
-    height: 70px;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 30px;
   }
   img.email_image {
-    width: 90%;
+    width: 250px;
     border: solid 2px gray;
     border-radius: 10px;
+    margin: 30px 0 30px;
   }
   ul {
     list-style: none;
@@ -117,26 +141,59 @@
   }
   ul li {
     background: #fff;
-    padding: 10px 20px;
+    padding: 25px 35px 30px;
     margin-bottom: 20px;
     border-radius: 15px;
   }
   .list_body {
-    display: flex;
     width: 100%;
+    text-align: center;
+  }
+  .list_body p{
+    text-align: initial;
   }
   .list_body_left {
     padding-left: 30px;
   }
   .first_title {
-    background: black;
+    background: #447e90;
     color: #fff;
     padding: 6px 30px;
     font-size: 15px;
     border-radius: 50px;
-    margin: 10px 0 30px;
+    margin: 10px 0 50px;
   }
   .highlight {
-    background: linear-gradient(transparent 50%, #7bdfed 50%);
+    background: linear-gradient(transparent 50%, #9becf7 50%);
+    font-weight: bold;
+    color: #0b7684;
+  }
+  p.test_step {
+    margin: 0;
+    background: lightgray;
+    border-radius: 15px;
+    padding: 3px 27px;
+    margin-bottom: 13px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .form_link_box a {
+    display: block;
+    text-decoration: none;
+    background: #538eec;
+    width: 80%;
+    margin: 30px auto;
+    padding: 14px 30px;
+    border-radius: 25px;
+    color: #fff;
+    font-weight: bold;
+  }
+  p.arrow {
+    text-align: center;
+    padding: 10px 0 30px;
+    font-weight: bold;
+    font-size: 70px;
+    color: #1eb1ee;
+    margin: 100px 0 30px;
   }
 </style>
