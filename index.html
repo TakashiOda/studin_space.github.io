@@ -26,9 +26,9 @@
         <ul>
           <li>
             <h5 class="list_title">1.TestFlightをインストール</h5>
-            <div class="list_body_left">
+            <div>
               <img src="images/testflight_icon.png" class="icon_image"/>
-              <div>
+              <div class="list_body_left">
                 <p class="text">下記のリンクからAppStoreにて「TestFlight」をインストールしてください</p>
                 <p class="hosoku">※「TestFlight」はApple公式のテスト用のアプリです</p>
               </div>
@@ -36,12 +36,10 @@
           </li>
           <li>
             <h5 class="list_title">2.招待メールからアプリを開く</h5>
-            <div class="list_body_left">
-              <img src="images/email.jpg" class="email_image"/>
-              <div>
-                <p class="text">以前アンケートで伺ったメールアドレス宛に招待メールを送っていますので、メール内のリンクをクリックしてTestFlightを開いてください</p>
-                <p class="hosoku">※「TestFlight」を直接起動しても何も表示されません</p>
-              </div>
+            <img src="images/email.jpg" class="email_image"/>
+            <div>
+              <p class="text">以前アンケートで伺ったメールアドレス宛に招待メールを送っていますので、メール内のリンクをクリックしてTestFlightを開いてください</p>
+              <p class="hosoku">※「TestFlight」を直接起動しても何も表示されません</p>
             </div>
           </li>
         </ul>
@@ -69,6 +67,9 @@
   section {
     margin: 10px 0 30px;
   }
+  section p {
+    margin-top: 0;
+    }
   section.introduction {
     background: #f1f1f1;
     padding: 10px 30px;
@@ -80,5 +81,20 @@
   img.icon_image {
     width: 50px;
     height: 50px;
-    }
+  }
+  img.email_image {
+    width: 90%;
+    border: solid 2px gray;
+    border-radius: 10px;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  ul li {
+    background: #e7ecef;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+  }
 </style>
