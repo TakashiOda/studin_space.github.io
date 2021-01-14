@@ -26,7 +26,7 @@
         <ul>
           <li>
             <h5 class="list_title">1.TestFlightをインストール</h5>
-            <div>
+            <div class="list_body">
               <img src="images/testflight_icon.png" class="icon_image"/>
               <div class="list_body_left">
                 <p class="text">下記のリンクからAppStoreにて「TestFlight」をインストールしてください</p>
@@ -58,14 +58,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 40px;
-    max-width: 600px;
+    width: 100%;
+    padding: 30px 30px;
   }
   .header_title {
     margin-bottom: 20px;
   }
   section {
     margin: 10px 0 30px;
+    max-width: 800px;
   }
   section p {
     margin-top: 0;
@@ -77,6 +78,9 @@
   }
   h3 {
     margin: 5px;
+  }
+  h5.list_title {
+    margin: 5px 0 10px;
   }
   img.icon_image {
     width: 50px;
